@@ -1,0 +1,225 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background: url('backg.png');
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+}
+html{
+  scroll-behavior: smooth;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    flex: 1;
+    text-align: center;
+    background-color: dimgray;
+    padding: 0px 100px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+nav ul li:nth-child(1) a {
+    color: azure;
+    margin-right: 100px;
+}
+nav ul li:nth-child(1) a:hover{
+    color: #5DABB9;
+}
+nav ul li:nth-child(2) a {
+    color: azure;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+nav ul li:nth-child(2) a:hover{
+    color: #FF9B45;
+}
+nav ul li:nth-child(3) a {
+    color: azure;
+    margin-left: 150px;
+}
+nav ul li:nth-child(3) a:hover{
+    color: #C9B9B4;
+}
+.container {
+  height: 97vh;
+  width: 100%;
+  position: relative;
+}
+.halo{
+    font-size: 100px;
+    font-weight: bold;
+    position: absolute;
+    left: 200px;
+    bottom: 450px;
+    color: #5DABB9;
+    z-index: 1;
+}
+.berandadesk1{
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: azure;
+  position: absolute;
+  left: 100px;
+  top: 325px;
+  z-index: 1;
+}
+.nama{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: azure;
+    position: absolute;
+    left: 100px;
+    top: 360px;
+    z-index: 1;
+}
+.berandadesk2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: azure;
+    position: absolute;
+    left: 100px;
+    top: 500px;
+    z-index: 1;
+}
+.bx-chevron-up{
+  font-size: 40px;
+  bottom: 620px;
+  left: 100px;
+  position: absolute;
+  text-decoration: none;
+  color: black;
+}
+.scrollup{
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  bottom: 630px;
+  left: 150px;
+  position: absolute;
+  text-decoration: none;
+  color: black;
+}
+.bx-chevron-down{
+  font-size: 40px;
+  bottom: 1px;
+  left: 100px;
+  position: absolute;
+  text-decoration: none;
+  color: black;
+}
+.scrolldown{
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  bottom: 8px;
+  left: 150px;
+  position: absolute;
+  text-decoration: none;
+  color: black;
+}
+.job{
+  position: absolute;
+  font-size: 50px;
+  font-weight: bold;
+  color: #FF9B45;
+  top: 375px;
+  left: 100px;
+  transform: translate(0, -50%);
+}
+.skills{
+  position: absolute;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: #FF9B45;
+  top: 125px;
+  right: 185px;
+}
+.skillslist{
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: azure;
+  top: 200px;
+  right: 150px;
+}
+.achieve{
+  position: absolute;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: #FF9B45;
+  bottom: 230px;
+  right: 100px;
+}
+.achievelist{
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: azure;
+  bottom: 120px;
+  right: 85px;
+  text-align: center;
+}
+.tksm{
+  position: absolute;
+  bottom: 200px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #6b686b;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+}
+.sosmed{
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #6b686b;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+.bxl-facebook-square{
+  color: #776D73;
+  position: absolute;
+  left: 600px;
+  bottom: 31px;
+  font-size: 65px;
+}
+.bxl-youtube {
+    color: #776D73;
+    position: absolute;
+    left: 725px;
+    bottom: 25px;
+    font-size: 75px;
+}
+.bxl-instagram-alt {
+    color: #776D73;
+    position: absolute;
+    left: 860px;
+    bottom: 31px;
+    font-size: 65px;
+}

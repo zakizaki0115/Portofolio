@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portofolio Zaki</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="portstyle.css">
+    <script>
+        const fonts = ["Poppins", "Times New Roman", "Arial", "Consolas", "Sans Serif","Lucida Sans","Tahoma", "Alice","Courier New","Verdana","Gill Sans","Lucida Sans","Roboto"];
+        let currentIndex = 0;
+        function changeFontHalo() {
+            const halo = document.getElementById("halo");
+            halo.style.fontFamily = fonts[currentIndex];
+            currentIndex = (currentIndex + 1) % fonts.length;
+        }
+        setInterval(changeFontHalo, 300);
+        function changeFontJob() {
+            const halo = document.getElementById("job");
+            halo.style.fontFamily = fonts[currentIndex];
+            currentIndex = (currentIndex + 1) % fonts.length;
+        }
+        setInterval(changeFontJob, 300);
+        function changeFontTKSM() {
+            const halo = document.getElementById("tksm");
+            halo.style.fontFamily = fonts[currentIndex];
+            currentIndex = (currentIndex + 1) % fonts.length;
+        }
+        setInterval(changeFontTKSM, 300);
+    </script>
+</head>
+<body>
+    <div class="navbar">
+        <nav>
+            <ul>
+                <li><a href="#beranda">BERANDA</a></li>
+                <li><a href="#tentang">TENTANG</a></li>
+                <li><a href="#kontak">KONTAK</a></li>
+            </ul>            
+        </nav>
+    </div>
+    <section class="container" id="beranda">
+        <p class="halo" id="halo">Halo!</p>
+        <p class="berandadesk1">Perkenalkan, nama Saya adalah</p>
+        <p class="nama" style="text-decoration: underline;">Gunawan Zaki Budi Santoso</p>
+        <p class="berandadesk2">Saya adalah seorang pelajar SMK yang masuk<br>
+            ke jurusan Pengembangan Perangkat Lunak dan Gim.
+        </p>
+        <a class='bx bx-chevron-down' href="#tentang"></a>
+        <a class="scrolldown" href="#tentang">Tentang</a>
+    </section>
+    <section class="container" id="tentang">
+        <a class='bx bx-chevron-up' href="#beranda"></a>
+        <a class="scrollup" href="#beranda">Beranda</a>
+        <p class="job" id="job">
+            Programmer<br>Designer<br>Developer<br>Gamer<br>Movie Enthusiast<br>Song Enthusiast<br>Sleep Enjoyer
+        </p>
+        <p class="skills">Skills</p>
+        <p class="skillslist">
+            Design : 7/10<br>
+            Photography : 7/10<br>
+            Programming : 6/10<br>
+            Confidence : -1/10<br>
+            Honesty : -1/10<br>
+        </p>
+        <p class="achieve">Achievement</p>
+        <p class="achievelist">
+            Bersekolah di SMK Prestasi Prima<br>
+            Bertahan dari masa COVID-19<br>
+            Berani nonton film Sleepaway Camp
+        </p>
+        <a class='bx bx-chevron-down' href="#kontak"></a>
+        <a class="scrolldown" href="#kontak">Kontak</a>
+    </section>
+    <section class="container" id="kontak">
+        <a class='bx bx-chevron-up' href="#tentang"></a>
+        <a class="scrollup" href="#tentang">Tentang</a>
+        <p class="tksm" id="tksm">Terima Kasih Sudah Mampir!</p>
+        <p class="sosmed">Sosial Media Saya :</p>
+        <a href="https://www.facebook.com/renaldii.prawirya/videos/771002637307322" target="_blank">
+            <i class='bx bxl-facebook-square'></i>
+        </a>
+        <a href="https://www.youtube.com/watch?v=w09ukdgQKho" target="_blank">
+            <i class='bx bxl-youtube'></i>
+        </a>
+        <a href="https://www.instagram.com/p/CvHr6AbxG21/?igshid=MzRlODBiNWFlZA==" target="_blank">
+            <i class='bx bxl-instagram-alt'></i>
+        </a>
+    </section>
+</body>
