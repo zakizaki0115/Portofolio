@@ -1,0 +1,206 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-top-width: 3px;
+    border-top-style: solid;
+    border-top-color: black;
+}
+.nav-bx{
+    margin-left: 50px;
+}
+.bx-user-circle{
+    font-size: 40px;
+    color: gainsboro;
+    margin-right: 20px;
+}
+.navbar-brand{
+    color: gainsboro !important;
+    font-weight: bold;
+}
+.collapse{
+    margin-left: 250px;
+}
+.nav-link{
+    padding: 10px;
+    margin-right: 50px;
+    font-family: 'Poppins';
+    color: gainsboro !important;
+    text-decoration: none;
+}
+.nav-link:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white !important;
+}
+.utama{
+    height: 100vh;
+    background: #B04A6A;
+    background-image: url(img/utama.png);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.halo{
+    padding-top: 100px;
+    text-align: center;
+}
+.halo-teks{
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 125px;
+    color: rgb(239, 158, 91);
+}
+.desk{
+    padding-top: 241px;
+    text-align: center;
+}
+.desk-teks{
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 20px;
+    color: wheat;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.profil{
+    height: 100vh;
+    background: #9da491;
+    background-image: url(img/profil.png);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.profil p{
+    color: #484f49;
+}
+.judul{
+    padding-top: 50px;
+    text-align: center;
+}
+.judul-teks{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 50px;
+    padding: 10px;
+    text-align: center;
+}
+.pengalaman{
+    height: 100vh;
+    background: #254392;
+    background-image: url(img/pengalaman.png);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.pengalaman p{
+    color: #EAB5E7;
+}
+.daftarproyek{
+    height: 100vh;
+    background: #b3212f;
+    background-image: url(img/daftarProyek.png);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.daftarproyek p{
+    color: #7885b7;
+}
+.kontak{
+    height: 100vh;
+    background: #cbedea;
+    background-image: url(img/kontak.png);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.tksm{
+    text-align: center;
+    padding-top: 150px;
+}
+.tksm-teks{
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 75px;
+    color: #7099a3;
+}
+.row{
+    padding-top: 150px;
+    padding-left: 100px;
+}
+.card-kontak{
+    background-color: rgba(203, 237, 234, 0.7) !important;
+}
+.sosmed a {
+    text-decoration: none;
+}
+.sms{
+    font-family: 'Poppins';
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.bxl-facebook-square{
+    color: #1877f2;
+    font-size: 65px;
+    margin-right: 20px;
+    border-radius: 15px;
+}
+.bxl-facebook-square:hover{
+    background-color: rgba(24, 119, 242, 0.3);
+}
+.bxl-youtube{
+    color: #c4032b;
+    font-size: 65px;
+    border-radius: 15px;
+}
+.bxl-youtube:hover{
+    background-color: rgba(196, 3, 43, 0.3);
+}
+.bxl-instagram-alt{
+    color: #f77737;
+    font-size: 65px;
+    margin-left: 20px;
+    border-radius: 15px;
+}
+.bxl-instagram-alt:hover{
+    background-color: rgba(247, 119, 55, 0.3);
+}
+.film{
+    margin-left: 105px;
+}
+.jjf{
+    font-family: 'Poppins';
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 5px;
+}
+.daftarfilm{
+    font-family: 'Poppins';
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+.daftarfilm a {
+    text-decoration: none;
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+}
+.daftarfilm a:hover{
+    background-color: rgba(112, 153, 163, 0.8);
+}

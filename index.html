@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolioku</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script>
+        const fonts = ["Poppins", "Times New Roman", "Arial", "Consolas", "Sans Serif","Lucida Sans","Tahoma", "Alice","Courier New","Verdana","Gill Sans","Lucida Sans","Roboto","Montserrat"];
+        let currentIndex = 0;
+        function changeFontHalo() {
+            const halo = document.getElementById("halo");
+            halo.style.fontFamily = fonts[currentIndex];
+            currentIndex = (currentIndex + 1) % fonts.length;
+        }
+        setInterval(changeFontHalo, 300);
+        function changeFontJob() {
+            const halo = document.getElementById("job");
+            halo.style.fontFamily = fonts[currentIndex];
+            currentIndex = (currentIndex + 1) % fonts.length;
+        }
+        setInterval(changeFontJob, 300);
+        function changeFontTKSM() {
+            const halo = document.getElementById("tksm");
+            halo.style.fontFamily = fonts[currentIndex];
+            currentIndex = (currentIndex + 1) % fonts.length;
+        }
+        setInterval(changeFontTKSM, 300);
+    </script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-bottom">
+        <div class="container-fluid">
+            <a href="#utama" class="nav-bx">
+                <i class="bx bx-user-circle"></i>
+                <a class="navbar-brand mb-0 h1" href="#utama">Gunawan Zaki</a>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="#profil">Profil</a>
+                    <a class="nav-link" href="#pengalaman">Pengalaman</a>
+                    <a class="nav-link" href="#daftarproyek">Daftar Proyek</a>
+                    <a class="nav-link" href="#kontak">Kontak</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section id="utama" class="utama">
+        <div class="halo">
+            <p class="halo-teks" id="halo">Halo!</p>
+        </div>
+        <div class="desk">
+            <p class="desk-teks">Perkenalkan, nama saya adalah Gunawan Zaki. <br>Saya adalah siswa SMK jurusan Pengembangan Perangkat Lunak dan Gim. <br>Saya memiliki kepribadian yang rajin, teliti, dan bertanggung jawab.</p>
+        </div>
+    </section>
+    <section id="profil" class="profil">
+        <div class="judul">
+            <p class="judul-teks">Profil</p>
+        </div>
+    </section>
+    <section id="pengalaman" class="pengalaman">
+        <div class="judul">
+            <p class="judul-teks">Pengalaman</p>
+        </div>
+    </section>
+    <section id="daftarproyek" class="daftarproyek">
+        <div class="judul">
+            <p class="judul-teks">Daftar Proyek</p>
+        </div>
+    </section>
+    <section id="kontak" class="kontak">
+        <div class="tksm">
+            <p class="tksm-teks" id="tksm">Terima Kasih Sudah Mampir!</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col sosmed">
+                    <div class="card card-kontak" style="width: 20.5rem; height: 200px;">
+                        <div class="card-body text-center">
+                        <h5 class="card-title mt-3 sms">Sosial Media Saya</h5>
+                        <a href="https://www.facebook.com" target="_blank">
+                            <i class='bx bxl-facebook-square'></i>
+                        </a>
+                        <a href="https://www.youtube.com/" target="_blank">
+                            <i class='bx bxl-youtube'></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <i class='bx bxl-instagram-alt'></i>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col film">
+                    <div class="card card-kontak film" style="width: 20.5rem; height: 200px;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title jjf">Judul-Judul Film</h5>
+                            <div class="daftarfilm">
+                                <a href="https://en.wikipedia.org/wiki/The_Empire_Strikes_Back" target="_blank">
+                                    Star Wars: The Empire Strikes Back <br>
+                                </a>
+                                <a href="https://en.wikipedia.org/wiki/Thor:_Ragnarok" target="_blank">
+                                    Thor: Ragnarok <br>
+                                </a>
+                                <a href="https://en.wikipedia.org/wiki/No_Time_to_Die" target="_blank">
+                                    No Time to Die <br>
+                                </a>
+                                <a href="https://en.wikipedia.org/wiki/Evangelion:_3.0%2B1.0_Thrice_Upon_a_Time" target="_blank">
+                                    Evangelion: 3.0+1.0 Thrice Upon A Time <br>
+                                </a>
+                                <a href="https://en.wikipedia.org/wiki/Requiem_for_a_Dream" target="_blank">
+                                    Requiem for a Dream <br>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
